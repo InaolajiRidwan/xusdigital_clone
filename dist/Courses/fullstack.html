@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="/xusdigital_clone/dist/output.css" />
     <title>Courses</title>
     <link href="./output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../style.css" />
     <link
       rel="shortcut icon"
       href="/dist/images/logo.webp"
@@ -92,10 +93,26 @@
             >Home</a
           >
         </li>
-        <li class="hover:text-[#2A8CE9] hover:font-thin flex gap-2">
-          <a class="font-extrabold" href="/dist/Courses/courses.html">Course</a>
+
+        <li
+          id="cont-courses"
+          class="hover:text-[#2A8CE9] hover:font-thin flex gap-2"
+        >
+          <a class="font-extrabold" href="#">Course</a>
           <i class="fa-solid fa-caret-down"></i>
+          <ul id="course-categories">
+            <li>
+              <a href="/dist/Courses/fullstack.html">Full stack development</a>
+            </li>
+            <li>
+              <a href="/dist/Courses/backend.html">Backend development</a>
+            </li>
+            <li>
+              <a href="/dist/Courses/cybersecurity.html">Cyber security</a>
+            </li>
+          </ul>
         </li>
+
         <li class="">
           <a
             class="flex gap-1 font-extrabold hover:text-[#2A8CE9] hover:font-thin"
@@ -110,6 +127,7 @@
             >about</a
           >
         </li>
+
         <li class="hover:text-[#2A8CE9] hover:font-thin flex gap-2">
           <a class="font-extrabold" href="/dist/company/company.html"
             >company</a

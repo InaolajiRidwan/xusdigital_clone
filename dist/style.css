@@ -1,0 +1,27 @@
+#cont-courses {
+  position: relative;
+}
+
+#course-categories {
+  background-color: white;
+  width: 14rem;
+  position: absolute;
+  top: 1.4rem;
+  padding: 1rem;
+  box-shadow: 0 0rem 1rem rgb(103, 99, 99);
+  display: none;
+}
+
+#course-categories li {
+  color: black;
+  margin-bottom: 0.5rem;
+}
+
+#course-categories li:hover {
+  text-decoration: underline;
+  color: #2a8ce9;
+}
+
+#cont-courses:hover #course-categories {
+  display: block;
+}

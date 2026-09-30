@@ -1,4 +1,4 @@
-body {
+  body {
     margin: 0;
     
 }
@@ -55,6 +55,15 @@ ul{
     z-index: 2;
   }
 
+  .domain{
+    display: flex;
+    gap: 50px;
+  }
+
+  .no{
+    font-size: 24px;
+  }
+
   .grid{
     display: grid;
     margin-top: -12rem;
@@ -67,22 +76,45 @@ ul{
     gap: 20px;
   }
 
-  .container{
+  
+
+  .container1{
     background-color: white; 
-    box-shadow: 5px 5px 15px 0px rgba(13, 13, 13, 0.4);
+    box-shadow: 5px 5px 15px 0px rgba(13, 13, 13, 0.12);
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+
+  
+
+  .container2{
+    background-color: white; 
+    box-shadow: 5px 5px 15px 0px rgba(13, 13, 13, 0.12);
     border-radius: 10px;
   }
 
+
+  .container3{
+    background-color: white; 
+    box-shadow: 5px 5px 15px 0px rgba(13, 13, 13, 0.12);
+    border-radius: 10px;
+  }
+
+
+
   .good{
     background-color: white;
-    box-shadow: 5px 5px 15px 0px rgba(13, 13, 13, 0.4);
+    box-shadow: 5px 5px 15px 0px rgba(13, 13, 13, 0.12);
     border-radius: 10px;
     height: 50vh;
   }
 
 
   @media (Max-width: 768px) {
+
     body {
-      font-size: 32%;
+      font-size: 12%;
     }
   }
+
+ 
